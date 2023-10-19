@@ -74,7 +74,7 @@ def load_json(path:Path)-> ConfigBox:
     """            
     with open(path) as f:
         content = load_json(f)
-    logger.info(f"json file loaded successfully from: {path}")
+        logger.info(f"json file loaded successfully from: {path}")
     return ConfigBox(content)            
             
 @ensure_annotations
