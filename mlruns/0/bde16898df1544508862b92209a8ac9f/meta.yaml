@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/all%20ML/DeepLearning/KidneyDiseaseClassification-DL-MLflow-DVC/mlruns/0/bde16898df1544508862b92209a8ac9f/artifacts
+end_time: 1697974817578
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bde16898df1544508862b92209a8ac9f
+run_name: welcoming-calf-401
+run_uuid: bde16898df1544508862b92209a8ac9f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697974790511
+status: 3
+tags: []
+user_id: pc
