@@ -1,6 +1,8 @@
 from cnnKDClassification import logger
 from cnnKDClassification.pipeline.stage_1_data_ingestion import DataIngestionTrainingPipeline
 from cnnKDClassification.pipeline.stage_2_prepare_base_model import PrepareBaseModelTrainingPipeline
+from cnnKDClassification.pipeline.stage_3_model_training import ModelTrainingPipeline
+#from cnnClassifier.pipeline.stage_04_model_evaluation import EvaluationPipeline
 
 STAGE_NAME = "Data Ingestion"
 try:
@@ -23,3 +25,17 @@ try:
 except Exception as e:
         logger.exception(e)
         raise e
+    
+    
+    
+    
+STAGE_NAME="Training"    
+try:
+    logger.info(f"******************************")
+    logger.info(f">>>>>>Stage {STAGE_NAME} Started <<<<<<<")
+    obj =ModelTrainingPipeline()
+    obj.main()
+    logger.info(f">>>>>>Stage {STAGE_NAME} Completed <<<<<<<\n\nx=================================x")
+except Exception as e:
+        logger.exception(e)
+        raise e       

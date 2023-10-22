@@ -14,10 +14,6 @@
 9.Update dvc.yaml
 10.Update app.py
 
-
-
-
-
 ## How to run?
 
 ### STEPS :
